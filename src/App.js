@@ -1,10 +1,26 @@
+import React, { useState } from 'react';
 import './style.css'
+import WelcomeWindow from './components/WelcomeWindow';
+import QuizSection from './components/quiz-section/QuizSection';
 
 function App() {
+  const [start, setStart] = useState(false);
+
+  function startGame() {
+    setStart(true)
+    console.log('Started game')
+  }
+
   return (
-    <div className="App">
-      asdasd
-    </div>
+    <main>
+      {
+        start ?
+          <QuizSection /> :
+          <WelcomeWindow
+            start={startGame}
+          />
+      }
+    </main>
   );
 }
 
