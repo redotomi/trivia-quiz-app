@@ -8,7 +8,6 @@ function App() {
 
   function startGame() {
     setStart(true)
-    console.log('Started game')
   }
 
   return (

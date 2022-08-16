@@ -35,4 +35,55 @@ body {
   height: 50px;
   border: none;
   border-radius: 15px;
+  cursor: pointer;
+}
+
+.quiz-section {
+  margin: 30px 15vw;
+}
+
+.question-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #293264;
+}
+
+.question--options {
+  /* margin-top: 15px; */
+}
+
+.question--answers {
+  font-size: 1.15rem;
+  font-weight: 500;
+  font-family:'Karla', sans-serif;
+  color: #293264;
+  margin: 15px 20px 0px 0px;
+  padding: 5px;
+  border: 1px solid #4D5B9E;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.question--divider {
+  height: 1px;
+  background-color: #DBDEF0;
+  margin-top: 10px;
+}
+
+.check-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.check-button {
+  margin-top: 30px;
+  color: white;
+  background-color:#4D5B9E;
+  font-size: 1.15rem;
+  width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
